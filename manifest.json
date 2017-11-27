@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name" : "Get tab URL",
+  "version" : "1.0",
+  "description" : "Get tab URL",
+
+  "icons": { "16": "cony.png", "48": "cony.png", "128": "cony.png" },
+  "browser_action": {
+    "default_icon": "cony.png",
+    "default_popup": "client.html"
+  },
+    "web_accessible_resources": [],
+    "permissions": [
+        "contentSettings",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "*://220.230.125.231/*",
+        "*://*/",
+        "http://*/"
+    ]
+}
